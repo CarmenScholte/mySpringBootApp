@@ -20,6 +20,4 @@ public class StartApplication {
         SpringApplication.run(StartApplication.class, args);
     }
 
-
-    // Run and localhost:8080 will print Hello World!
 }

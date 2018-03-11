@@ -12,11 +12,7 @@ public class RestResource {
     @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(path = "", method = RequestMethod.GET,
             produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public ResponseEntity<String> getAvailableRooms()
-//            @RequestParam(name = "checkin")
-//            @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
-//                    LocalDate checkin
-    {
+    public ResponseEntity<String> getExampleMessage() {
 
         return new ResponseEntity<>("Hello from the REST service!", HttpStatus.OK);
     }
