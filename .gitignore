@@ -1,2 +1,4 @@
 .idea
 /target
+/src/main/webapp/csl/node_modules
+/src/main/webapp/csl/e2e
