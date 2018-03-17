@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { AppService } from './app.service';
+import { SwapiService } from './services/swapi.service';
 
 
 @NgModule({
@@ -14,7 +15,7 @@ import { AppService } from './app.service';
     BrowserModule,
 	HttpClientModule
   ],
-  providers: [AppService],
+  providers: [AppService, SwapiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

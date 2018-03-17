@@ -1,9 +1,24 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
+    <h1>
+        Welcome to {{ title }}!
+    </h1>
 </div>
-<h2>{{ restResult }}</h2>
+<div>
+    <h2>{{ restResult }}</h2>
+    <p>Films</p>
+    <ul>
+        <li *ngFor="let film of films">
+            {{ film.title }}
+        </li>
+    </ul>
 
+    <p>People</p>
+    <ul>
+        <li *ngFor="let person of people">
+            {{ person.name }}
+        </li>
+    </ul>
+
+</div>
 
